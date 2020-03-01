@@ -1,0 +1,10 @@
+# ignore these files:
+style_test.css
+garbage_unused.html
+index_test.html
+test.html
+
+
+# ignore these directories/folders:
+__pycache__
+.ipynb_checkpoints

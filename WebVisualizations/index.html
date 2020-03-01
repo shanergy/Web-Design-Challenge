@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lattitude: Bootstrap Visualization Dashboard</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="This is the landing page for Web Design Homework - Web Visualization Dashboard (Latitude)".>
+    <meta name="author" content="Shane Gatenby">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-light bg-light navbar-expand-sm fixed-top">
+      <a class="navbar-brand" href="index.html">Lattitude</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" href="#">Plots</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="comparisons.html">Comparisons</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12">
+            <div class="jumbotron">
+              <h3>Max Temperature</h1>
+              <hr class="my-4">
+              <img src="Visualizations/latitude_vs_max_temp_plot.png" class="img-thumbnail">
+              <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset of over 500 cities.</p>
+              <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude.  Factors we looked at included: temperature, cloudiness, wind speed and humidity.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="jumbotron">
+              <h5>Visualizations</h5>
+              <hr class="my-2">
+              <div class="row">
+                <div class="col-lg-6 col-sm-3">
+                  <!-- <p>***PLACEHOLDER for Max Temp Visualization***</p> -->
+                  <h6>Max Temp</h6>
+                  <a class="nav-pill" role="button" href="max_temperature.html">
+                    <img  class="img-thumbnail" src="Visualizations/latitude_vs_max_temp_plot.png" href="max_temperature.html">
+                  </a>
+                </div>
+                <div class="col-lg-6 col-sm-3">
+                  <!-- <p>***PLACEHOLDER for Humidity Visualization***</p> -->
+                  <h6>Humidity</h6>
+                  <a class="nav-pill" role="button" href="humidity.html">
+                    <img  class="img-thumbnail" src="Visualizations/latitude_vs_humidity_plot.png" href="humidity.html">
+                  </a>
+                </div>
+                <div class="col-lg-6 col-sm-3">
+                  <!-- <p>***PLACEHOLDER for Cloudiness Visualization***</p> -->
+                  <h6>Cloudiness</h6>
+                  <a class="nav-pill" role="button" href="cloudiness.html">
+                    <img  class="img-thumbnail" src="Visualizations/latitude_vs_cloudiness_plot.png" href="cloudiness.html">
+                  </a>
+                </div>
+                <div class="col-lg-6 col-sm-3">
+                  <!-- <p>***PLACEHOLDER for Wind Speed Visualization***</p> -->
+                  <h6>Wind Speed</h6>
+                  <a class="nav-pill" role="button" href="wind_speed.html">
+                    <img  class="img-thumbnail" src="Visualizations/latitude_vs_wind_speed_plot.png" href="wind_speed.html">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <footer class="fixed-bottom">&copy; Copyright Coding Bootcamp 2020</footer> -->
+    <footer>
+      <div class="footer">
+        &copy; Copyright Shane's Snazzy Super-Duper Spectacularly Mediocre Sites - 2020.  All rights reserved.
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  </body>
+</html>

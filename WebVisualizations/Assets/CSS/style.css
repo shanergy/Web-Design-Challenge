@@ -1,0 +1,112 @@
+/************************************************/
+/*--  body --*/
+/************************************************/
+body{
+    /* background-color: #e6e6e6; */
+    background-color: #eeeeee;
+    margin: 2% 0%;
+}
+
+/************************************************/
+/*--  navbar --*/
+/************************************************/
+.navbar-light {
+    padding: 0% 10%;
+    border-bottom: 5px solid rgb(10, 40, 50);
+    color: #666666
+}
+
+.nav-link .dropdown-toggle {
+    color: #666666;
+    background-color: #000000;
+}
+
+.navbar-light .navbar-brand {
+    color: #ffffff;
+    font-family: serif, sans-serif, Arial, Helvetica;
+    font-size: 24pt;
+    background-color: #145a78;
+    padding: 10px 40px;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #ffffff;
+}
+
+/************************************************/
+/*--  container --*/
+/************************************************/
+/* .container {
+    background-color: black;
+    margin: 20px;
+    padding: 50px
+} */
+
+/************************************************/
+/*--  footer --*/
+/************************************************/
+.footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #666666;
+    color: #ffffff;
+    padding: 10px;
+    border-top: 5px solid rgb(10, 40, 50);
+    text-align: center;
+    font-size: small;
+}
+
+.jumbotron {
+    background-color: #ffffff;
+    margin: 80px 5px 5px 5px;
+    border: 2px solid rgb(10, 40, 50);
+}
+
+.jumbotron h3 {
+    color: #145a78;
+    text-align: center;
+    font-family: serif, sans-serif, Arial, Helvetica;
+}
+
+.jumbotron h4 {
+    color: #145a78;
+    text-align: center;
+    font-family: serif, sans-serif, Arial, Helvetica;
+}
+
+.jumbotron h5 {
+    color: #145a78;
+    text-align: center;
+    font-family: serif, sans-serif, Arial, Helvetica;
+}
+
+.jumbotron h6 {
+    color: #145a78;
+    text-align: center;
+    font-family: serif, sans-serif, Arial, Helvetica;
+}
+
+.jumbotron p {
+    color: #333333;
+    font-family: Comic, Helvetica;
+    font-size: 12pt;
+}
+
+.jumbotron .row h6 {
+    color: #145a78;
+    text-align: center;
+    font-family: Comic, Helvetica;
+    font-size: small;
+    /* bottom: 0; */
+    margin: 10px 0px 0px 0px;
+
+}
+
+.row {
+    background-color: #ffffff;
+}
+
+.row img {
+    margin: 0px;
+}
